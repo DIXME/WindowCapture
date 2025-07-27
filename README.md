@@ -6,4 +6,5 @@ this is libbary in c++ that brings together glfw, glad, imgui, and open cv for t
 - Show them in a glfw window
 - Use imgui for the user to change settings
 # How to use
+im adding this after the statments below now im using windows.h to record from windows by handle including the desktop window mabey latter a crossplatform altertive but i doubt that even exists so it seems like im unable to support linux witch sucks
 all you have to do is run the build script bash or batch they to they same thing (clear the screen & build) you can also just build i prefer typing build if your on linux tho i would assume you cant use dll files and i wasnt trynna find all of those a files beacuse most of the libbarys did not include them on thier github pages
