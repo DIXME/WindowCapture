@@ -5,3 +5,5 @@ this is libbary in c++ that brings together glfw, glad, imgui, and open cv for t
 - Interpret/Minipulate the frames with opencv
 - Show them in a glfw window
 - Use imgui for the user to change settings
+# How to use
+all you have to do is run the build script bash or batch they to they same thing (clear the screen & build) you can also just build i prefer typing build if your on linux tho i would assume you cant use dll files and i wasnt trynna find all of those a files beacuse most of the libbarys did not include them on thier github pages
