@@ -3,9 +3,10 @@
 int main(){
     std::println("Hello, World!");
     WindowManager wm("Hello, World!", 960, 540);
-    HWND hwnd = getHWND("Untitled - Notepad");
-    WindowStream ws(hwnd);
     wm.init();
+    HWND hwnd = GetDesktopWindow();
+    WindowStream ws(hwnd);
+    std::println("[+] Window inited");
     while(wm.isOpen()){
         glfwPollEvents();
         ImGui_ImplGlfw_NewFrame();

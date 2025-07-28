@@ -2,7 +2,8 @@
 #include "Utillity.hpp"
 
 void WindowStream::loop(){
-    LoadTextureFromHBITMAP(CaptureWindow(this->hwnd), this->textureID);
+    HBITMAP bitmap = CaptureWindow(this->hwnd);
+    LoadTextureFromHBITMAP(bitmap, this->textureID);
 }
 
 WindowStream::WindowStream(HWND hwnd): hwnd(hwnd) {
